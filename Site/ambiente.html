@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Luzes - Domótica 32</title>
+    <link href="css/style2.css" rel="stylesheet">
+
+  </head>
+  <body>
+      <form method="post" action="Salvarambiente.php">
+      
+      <div class="container-fluid">
+          <div class="row1" >
+              <a href="/index.html"><img src="img/button0.png" class="img"></a>
+              <a href="/luzes.html"><img src="img/button1.png" class="img"></a>
+              <a href="/index.html"><img src="img/button2.png" class="img"></a>
+              <a href="/sensores.php"><img src="img/button3.png" class="img"></a>
+              <a href="/temperatura.html"><img src="img/button4.png" class="img"></a>
+          </div>
+
+          <div class="row2" >
+              <img src="img/ambientepage.png" class="img3">
+
+              <div class="espacos2"><h1><p>Quarto 1</p></h1>
+                    <p2><input type="range" id="valor" name="valor" value="0" min="0" max="100" oninput="display.value=value" onchange="display.value=value"></br>
+                  <input type="text" id="display" value="0" oninput="valor.value=value" onchange="valor.value=value">%</p2>
+              </div>
+          
+              <div class="espacos2"><h1><p>Quarto 2</p></h1>
+                    <p2><input type="range" id="valor2" name="valor2" value="0" min="0" max="100" oninput="display2.value=value" onchange="display2.value=value"></br>
+                  <input type="text" id="display2" value="0" oninput="valor.value=value" onchange="valor.value=value">%</p2>
+              </div>
+          
+              <div class="espacos2"><h1><p>Quarto 3</p></h1>
+                    <p2><input type="range" id="valor3" name="valor3" value="0" min="0" max="100" oninput="display3.value=value" onchange="display3.value=value"></br>
+                  <input type="text" id="display3" value="0" oninput="valor.value=value" onchange="valor.value=value">%</p2>
+              </div>
+                
+              <input type=image class="img3" src="img/enviar.png">
+  
+          </div>
+      </div>
+        </form>
+  </body>
+</html>
